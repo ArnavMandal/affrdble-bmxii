@@ -30,7 +30,9 @@ export default function UploadPage() {
   const handleUploadClick = () => {
     fileInputRef.current?.click();
   };
-
+  if (cheaperAlternatives.length < 0) {
+    console.log("No alternatives found");
+  }
   // When user picks a file, store both file and filename
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
