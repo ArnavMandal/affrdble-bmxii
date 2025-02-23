@@ -10,14 +10,32 @@ const Navbar = () => {
                 <RiNextjsFill className='text-4xl'></RiNextjsFill>
             </a>
             <Link href="/" className='hover:text-gray-300 transition-colors'>
-                <span>home</span>
+               <span>home</span>
             </Link>
-            <Link href="/" className='hover:text-gray-300 transition-colors'>
-                <span>solutions</span>
-            </Link>
-            <Link href="/" className='hover:text-gray-300 transition-colors'>
-                <span>contact</span>
-            </Link>
+            <a
+                href="https://www.linkedin.com/in/shriyanbachigari" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-300 transition-colors"
+            >
+                <span>shriyan</span>
+            </a>
+            <a
+                href="https://www.linkedin.com/in/arnav-mandal-21o" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-300 transition-colors"
+            >
+                <span>arnav</span>
+            </a>
+            <a
+                href="https://www.linkedin.com/in/rithvik-reddy-siddenki0105" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-300 transition-colors"
+            >
+                <span>rithvik</span>
+            </a>
         </div>
     )
 }

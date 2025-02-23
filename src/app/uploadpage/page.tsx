@@ -169,7 +169,7 @@ export default function UploadPage() {
         {/* Little form for entering the price */}
         <div className="mt-4">
           <label htmlFor="price-input" className="block text-sm font-medium text-gray-700">
-            Max Price
+            Price
           </label>
           <input
             id="price-input"

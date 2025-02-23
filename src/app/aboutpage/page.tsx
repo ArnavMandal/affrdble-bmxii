@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 export default function AboutPage() {
     return (
         <div className="min-h-screen w-full flex items-center justify-center">
