@@ -13,9 +13,9 @@ export default function AboutPage() {
             </div>
        
         <p className="text-gray-900 text-lg text-pretty">
-          affrdble is a full stack web application made by 3 purdue cs freshman
-          Shriyan, Arnav, and Rithvik using Next.js with Typescript with the 
-          algorithim made using the gemini and google cloud search apis.
+          affrdble is a ai-driven full stack web application made by 3 purdue cs freshman
+          shriyan, arnav, and rithvik using next.js with typescript with the 
+          algorithm made using the gemini and google custom search apis.
         </p>
     
         </div>
