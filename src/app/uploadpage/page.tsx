@@ -93,7 +93,7 @@ export default function UploadPage() {
   async function fetchCheaperAlternatives(description: string, price: string): Promise<{ title: string; link: string }[]> {
     try {
       const priceQuery = price ? ` under $${price}` : "";
-      const query = encodeURIComponent(`Look on e-commerce sites for ${description}${priceQuery}, want a specific item`);
+      const query = encodeURIComponent(`Look on e-commerce sites for ${description}${priceQuery}`);
       console.log("Search query:", query);
       const url = `https://www.googleapis.com/customsearch/v1?q=${query}&cx=${GOOGLE_CX_ID}&key=${SEARCH_API_KEY}`;
 
